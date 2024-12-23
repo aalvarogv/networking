@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    background-color: #4caf89;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 3px solid #328266;
+}
+
+/* Image */
+img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    border: 2px solid #ddd;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+}
+
+nav ul li a:hover {
+    color: #4caf50;
+    border: 1px solid #4caf50;
+}
+
+/* Main content */
+main {
+    padding: 2em;
+    margin: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Text properties */
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Nested lists */
+ul ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+/* Combination selectors */
+nav ul > li + li {
+    border-left: 2px solid #ddd;
+    padding-left: 10px;
+}
+
+/* Hover effects */
+a:hover {
+    color: #ff6347;
+}
+
+/* ID-based styling */
+#special-section {
+    background-color: #e0f7fa;
+    padding: 1em;
+    border: 2px dashed #099eab;
+    margin: 1em 0;
+}

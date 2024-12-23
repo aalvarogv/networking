@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Tables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lists and Tables using HTML</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tags.html">HTML Tags</a></li>
+            <li><a href="lists-tables.html">Lists and Tables</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Lists</h2>
+            <p>Lists are a great way to organize content. HTML provides:</p>
+            
+            <ul>
+                <li>Ordered Lists: Use <code>&lt;ol&gt;</code> for numbered items.</li>
+                <li>Unordered Lists: Use <code>&lt;ul&gt;</code> for points.</li>
+                <li>Nested Lists: Combine <code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code> for complex structures:</li>
+                
+                <ul>
+                    <li>Mammals
+                        <ul>
+                            <li>Gorila</li>
+                            <li>Mouse</li>
+                            <li>Kangaroo</li>
+                        </ul>
+                    </li>
+                    <li>Birds</li>
+                        <ul>
+                            <li>Crow</li>
+                            <li>Eagle</li>
+                        </ul>
+                </ul>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tables</h2>
+            <p>HTML tables are used to organize data in rows and columns easily:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Tomatoe</td>
+                        <td>Round and red</td>
+                        <td rowspan="2">Vegetable</td>
+                    </tr>
+                    <tr>
+                        <td>Pepper</td>
+                        <td>It can be red, green, yellow...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 HTML basics tutorial for dummies</p>
+    </footer>
+</body>
+</html>
